@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  /* COLORS */
+  --color-primary: #001619;
+  --color-secondary: #59c5e0;
+  --color-tertiary: #8cf9e8;
+  --color-dark: #020f11;
+
+  /* FONTS */
+  --font-outfit: "Outfit", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
