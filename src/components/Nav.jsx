@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="min-w-screen bg-dark border border-b-tertiary flex flex-col justify-center py-8">
+    <nav className="min-w-screen bg-darker border border-b-tertiary flex flex-col justify-center py-8">
       <div className="text-tertiary font-outfit flex items-center text-3xl">
         <NavLink to="/" className="flex items-center ml-28 mr-auto">
           <CirclePoundSterling className="mx-3 items-left flex" />
