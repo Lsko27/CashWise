@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <div className="central">
-      <div className="py-10 text-tertiary font-outfit text-center">
-        <h1 className=" text-6xl md:text-6xl mt-10 py-3 font-bold">
+      <div className="min-h-screen flex flex-col items-center justify-center text-tertiary font-outfit text-center">
+        <h1 className="text-6xl md:text-6xl py-6 font-bold">
           Bem-vindo ao CashWise!
         </h1>
         <p className="font-inter text-xl md:text-2xl">
@@ -23,7 +23,10 @@ const Home = () => {
             Visualize seu resumo financeiro em tempo real, acompanhe gastos,
             saldo e tendências, e tome decisões inteligentes para economizar.
           </p>
-          <NavLink to="/DashBoard" className="bg-tertiary hover:bg-secondary text-dark px-4 py-2 rounded-md mt-4 text-center font-inter text-lg font-bold">
+          <NavLink
+            to="/DashBoard"
+            className="bg-tertiary hover:bg-secondary text-dark px-4 py-2 rounded-md mt-4 text-center font-inter text-lg font-bold"
+          >
             Ver DashBoard
           </NavLink>
         </div>
